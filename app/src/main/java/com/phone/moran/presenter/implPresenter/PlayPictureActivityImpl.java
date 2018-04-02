@@ -214,7 +214,7 @@ public class PlayPictureActivityImpl extends BasePresenterImpl implements IPlayP
                         if (allJourneysBack.getRet() == Constant.SUCCESSRESPONSE) {
 
                             try {
-                                paintActivity.uploadSuccess();
+                                paintActivity.addLightModeSuccess();
                             } catch (ClassCastException e) {
                                 e.printStackTrace();
                             }

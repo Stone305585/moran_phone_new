@@ -25,7 +25,6 @@ import com.phone.moran.model.Paint;
 import com.phone.moran.model.Picture;
 import com.phone.moran.presenter.implPresenter.CategoryDetailActivityImpl;
 import com.phone.moran.presenter.implView.ICategoryDetailActivity;
-import com.phone.moran.tools.AppUtils;
 import com.phone.moran.tools.DensityUtils;
 
 import java.util.ArrayList;
@@ -206,8 +205,11 @@ public class CategoryDetailActivity extends BaseActivity implements View.OnClick
 
                 int index = manager.findLastVisibleItemPosition();
 
-                if (index >= manager.getItemCount() - 1) {
+                if (index >= manager.getItemCount() - 1 && last_id != 0) {
+
                     caImpl.updateMain(paintId, last_id);
+                    //重置last_id  防止多次请求  请求成功后  会把最新的last_id重新赋值
+                    last_id = 0;
                 }
             }
         });
@@ -271,7 +273,7 @@ public class CategoryDetailActivity extends BaseActivity implements View.OnClick
     @Override
     public void showError(String error) {
         dialog.hide();
-        AppUtils.showToast(getApplicationContext(), error);
+//        AppUtils.showToast(getApplicationContext(), error);
     }
 
 }

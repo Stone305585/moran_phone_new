@@ -1,6 +1,7 @@
 package com.phone.moran.activity;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -36,10 +37,10 @@ public class AnimActivity extends BaseActivity {
     @Override
     protected void initView() {
         super.initView();
-        startActivity(new Intent(AnimActivity.this, LoginActivity.class));
-        finish();
-//        final AnimationDrawable ad = (AnimationDrawable) animFL.getBackground();
-//        ad.start();
+//        startActivity(new Intent(AnimActivity.this, LoginActivity.class));
+//        finish();
+        final AnimationDrawable ad = (AnimationDrawable) animFL.getBackground();
+        ad.start();
     }
 
     @Override

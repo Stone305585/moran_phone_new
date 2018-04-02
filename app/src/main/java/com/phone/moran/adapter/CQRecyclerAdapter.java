@@ -41,8 +41,8 @@ public class CQRecyclerAdapter extends BaseRecyclerAdapter<ClassicQuote> {
         final ClassicQuote cq = mData.get(position);
 
         ImageLoader.displayImg(mContext, cq.getCq_img_url(), mHolder.cqImage);
-        mHolder.cqText.setText(cq.getCq_title());
-        mHolder.cqTitle.setText(cq.getCq_content());
+        mHolder.cqTitle.setText(cq.getCq_title());
+        mHolder.cqText.setText(cq.getCq_content());
 
         if (itemClickListener != null) {
             mHolder.cqLL.setOnClickListener(new View.OnClickListener() {

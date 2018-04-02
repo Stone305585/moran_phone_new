@@ -174,6 +174,9 @@ public class MineFragment extends BaseFragment implements View.OnClickListener {
                 String flag = mainActivity.getFlag();
                 FragmentTransaction ft = fm.beginTransaction();
                 ft.hide(mainActivity.getMineF());
+                if(mainActivity.getMineF() instanceof DevicesFragment) {
+                    hideBack();
+                }
 //                if (mainActivity.getMineF() instanceof WifiListFragment || mainActivity.getMineF() instanceof ScanCodeFragment){
 //                    SLogger.d("<<", "++++====>>1111");
                 showFragment(devicesFragment);

@@ -43,8 +43,11 @@ final class CameraConfigurationManager {
   private int previewFormat;
   private String previewFormatString;
 
-  CameraConfigurationManager(Context context) {
+  private int degree;
+
+  CameraConfigurationManager(Context context, int degree) {
     this.context = context;
+    this.degree = degree;
   }
 
   /**
@@ -71,13 +74,13 @@ final class CameraConfigurationManager {
    */
   void setDesiredCameraParameters(Camera camera) {
     Camera.Parameters parameters = camera.getParameters();
-    Log.d(TAG, "Setting preview size: " + cameraResolution);
+    Log.d("<<", "degree-->>>" + degree);
     parameters.setPreviewSize(cameraResolution.x, cameraResolution.y);
     setFlash(parameters);
     setZoom(parameters);
     //setSharpness(parameters);
     //modify here
-    camera.setDisplayOrientation(270);
+    camera.setDisplayOrientation(degree + 90);
     camera.setParameters(parameters);
   }
 

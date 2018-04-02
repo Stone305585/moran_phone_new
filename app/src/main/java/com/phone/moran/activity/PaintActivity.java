@@ -222,6 +222,7 @@ public class PaintActivity extends BaseActivity implements View.OnClickListener,
 
                     if (index >= manager.getItemCount() - 1 && last_id != 0) {
                         paintActivityImpl.getPaintDetail(paintId, last_id);
+                        last_id = 0;
                     }
                 }
             });

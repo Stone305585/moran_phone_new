@@ -351,6 +351,14 @@ public class DevicesFragment extends BaseFragment implements View.OnClickListene
     }
 
 
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        super.onHiddenChanged(hidden);
+        if(!hidden) {
+            mineFragment.hideBack();
+        }
+    }
+
     /**
      * 暂时用来测试
      *

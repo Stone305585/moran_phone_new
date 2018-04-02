@@ -226,7 +226,7 @@ public class CollectPaintFragment extends BaseFragment {
                 }
 
                 Intent intent = new Intent(getActivity(), PaintActivity.class);
-                intent.putExtra(Constant.PAINT_TITLE, localPaint.getPaint_title());
+                intent.putExtra(Constant.PAINT_ID, localPaint.getPaint_id());
                 startActivity(intent);
             }
 

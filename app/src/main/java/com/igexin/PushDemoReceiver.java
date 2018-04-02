@@ -19,12 +19,6 @@ public class PushDemoReceiver extends BroadcastReceiver {
      * 应用未启动, 个推 service已经被唤醒,保存在该时间段内离线消息(此时 GetuiSdkDemoActivity.tLogView == null)
      */
 
-    /**
-     * "push_type": 1,  1:评论  2：点赞  3：加好友
-     * "reference_data": 12,   1：comment_id  2: challenge_join_id   3:user_id
-     * "android_data": "您又收到新的评论啦！快去查看吧"
-     */
-
     public static StringBuilder payloadData = new StringBuilder();
     private NotificationCompat.Builder builder;
     private NotificationManager notificationManager;

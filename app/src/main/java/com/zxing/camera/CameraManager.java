@@ -78,9 +78,9 @@ public final class CameraManager {
    *
    * @param context The Activity which wants to use the camera.
    */
-  public static void init(Context context) {
+  public static void init(Context context, int degree) {
     if (cameraManager == null) {
-      cameraManager = new CameraManager(context);
+      cameraManager = new CameraManager(context, degree);
     }
   }
 
@@ -93,10 +93,10 @@ public final class CameraManager {
     return cameraManager;
   }
 
-  private CameraManager(Context context) {
+  private CameraManager(Context context, int degree) {
 
     this.context = context;
-    this.configManager = new CameraConfigurationManager(context);
+    this.configManager = new CameraConfigurationManager(context, degree);
 
     // Camera.setOneShotPreviewCallback() has a race condition in Cupcake, so we use the older
     // Camera.setPreviewCallback() on 1.5 and earlier. For Donut and later, we need to use

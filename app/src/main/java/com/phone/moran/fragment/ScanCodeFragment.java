@@ -120,7 +120,7 @@ public class ScanCodeFragment extends BaseFragment  implements SurfaceHolder.Cal
 
         SLogger.d("<<", "--...>>" + a);
         //初始化view，初始化camera manager
-        CameraManager.init(getActivity().getApplication());
+        CameraManager.init(getActivity().getApplication(), a);
         viewfinderView = (ViewfinderView) view.findViewById(R.id.viewfinder_view);
         hasSurface = false;
 //        inactivityTimer = new InactivityTimer(getActivity());

@@ -152,6 +152,7 @@ public class MoodPicsActivity extends BaseActivity implements View.OnClickListen
 
                     if (index >= manager.getItemCount() - 1 && last_id != 0) {
                         paintImpl.getPaintDetail(mood.getMood_id(), last_id);
+                        last_id = 0;
                     }
                 }
             });

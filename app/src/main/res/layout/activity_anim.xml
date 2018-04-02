@@ -5,26 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.phone.moran.activity.AnimActivity">
-<!--
+
     <FrameLayout
         android:id="@+id/animFL"
-        android:background="@drawable/xf_105"
+        android:background="@drawable/login_anim"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
             android:scaleType="fitCenter"
             android:src="@drawable/xf_105"
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />-->
-    <FrameLayout
-        android:id="@+id/animFL"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:scaleType="fitCenter"
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

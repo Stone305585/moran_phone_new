@@ -175,6 +175,7 @@ public class PlayPictureActivity extends BaseActivity implements View.OnClickLis
         popupWindow = new PopupWindow(popView, LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, true);
         popupWindow.setContentView(popView);
         popupWindow.setAnimationStyle(R.style.mypopwindow_anim_style);
+        popupWindow.setOutsideTouchable(true);
 
         popupWindow.setOnDismissListener(new PopupWindow.OnDismissListener() {
             @Override
@@ -354,6 +355,7 @@ public class PlayPictureActivity extends BaseActivity implements View.OnClickLis
 
                 if (index >= manager.getItemCount() - 3 && last_id != 0) {
                     playPicImpl.getPaintDetail(paint.getPaint_id(), last_id);
+                    last_id = 0;
                 }
             }
         });
@@ -559,17 +561,19 @@ public class PlayPictureActivity extends BaseActivity implements View.OnClickLis
             //TODO 推送到硬件
             case R.id.normal_iv:
             case R.id.normal_node:
-
+                lightMode = NORMAL;
                 playPicImpl.addPlayLight(lightMode);
                 break;
             case R.id.night_iv:
             case R.id.night_node:
 
+                lightMode = NIGHT;
                 playPicImpl.addPlayLight(lightMode);
                 break;
             case R.id.sleep_iv:
             case R.id.sleep_node:
 
+                lightMode = SLEEP;
                 playPicImpl.addPlayLight(SLEEP);
                 break;
 
@@ -772,7 +776,6 @@ public class PlayPictureActivity extends BaseActivity implements View.OnClickLis
             case NORMAL:
                 normalNode.setImageDrawable(getResources().getDrawable(R.mipmap.bar_node_selected));
 
-                lightMode = NORMAL;
                 msg = getResources().getString(R.string.normal);
                 break;
             case NIGHT:

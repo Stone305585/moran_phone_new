@@ -141,11 +141,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
         initDataSource();
 
-        //TODO 测试diskcache
-        diskLruCacheHelper.put("test", "test");
-        diskLruCacheHelper.get("test");
-        diskLruCacheHelper.put("test", "test");
-        diskLruCacheHelper.get("test");
     }
 
 

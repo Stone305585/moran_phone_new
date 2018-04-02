@@ -22,7 +22,7 @@
 
             <EditText
                 android:id="@+id/msg_et"
-                android:hint="person_des"
+                android:hint="@string/person_des"
                 android:textSize="16sp"
                 android:gravity="left|top"
                 android:padding="12dp"

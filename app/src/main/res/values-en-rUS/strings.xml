@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Moran</string>
+    <string name="facebook_app_id">550504378626576</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--主页的tab-->
+    <string name="tab_1">Discover</string>
+    <string name="tab_2">Category</string>
+    <string name="tab_3">Art Works</string>
+    <string name="tab_4">My Account</string>
+
+    <!--discover_fragment-->
+    <string name="search_jinrituijian_tab">今日推荐</string>
+    <string name="search_yishuxianfeng_tab">艺术先锋</string>
+    <string name="search_shangchuan_tab">最新上传画单</string>
+    <string name="search_zhuti_tab">最热主题画单</string>
+    <string name="dakashuo">大咖说</string>
+    <string name="dujingcai">读精彩</string>
+    <string name="lijifenxiang">立即分享</string>
+    <string name="chushifenlei">初始分类</string>
+    <string name="zidingyi">用户自定义</string>
+
+
+    <string name="net_dissconncted">Disconnect</string>
+    <string name="exit_fenghuo">Press back to exit</string>
+
+    <string name="gentle_man">Gentle Man</string>
+    <string name="lady">Lady</string>
+    <string name="division">Division</string>
+
+
+    <string name="need_location">Need Location</string>
+
+    <string name="need_permission">Need permission to work normally</string>
+
+    <!--                    正式中英                            -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sign_out_sure">Are you sure to sign out?</string>
+    <string name="choose_your_language">Choose your language</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="account_security">Account Security</string>
+    <string name="bind">Bind</string>
+    <string name="change_password">Change Password</string>
+    <string name="not_set_up">Not set up</string>
+    <string name="device">Device</string>
+    <string name="no_device">Not connected to\nany device</string>
+    <string name="add_device">Add Device</string>
+    <string name="wifi_setting">Wi-fi Setting</string>
+    <string name="scan_success">The scan was successful</string>
+    <string name="scan_not_success">The scan was unsuccessful</string>
+    <string name="discon_device">You are going to disconnect this device</string>
+    <string name="connected_user">Connected Users</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="connected_device">Connected Devices</string>
+    <string name="remove">Remove</string>
+    <string name="device_manage">Device Management</string>
+    <string name="unbind_all_msg">If you unbind the device,all that is bound\nto the device.The user will\nautomatically unbundle</string>
+    <string name="generate_qr_code">Generate a QR code\nPlease wait </string>
+    <string name="please_sign_in">Please sign in to add device </string>
+    <string name="bind_success">This device is connected\nto your account</string>
+    <string name="request_use_device_msg">This device is connected to another\naccount,do you request to use it now?</string>
+    <string name="go_wifi_and_use">Please go to the moran frame\nsettings page and enter the \nWi-Fi connection option</string>
+    <string name="device_scan_qr_to_auto_scan">Please click“Connect App”\non your MORAN frame and scan\nyour MORAN bar code</string>
+
+    <string name="wait">Waiting</string>
+
+    <!--搜索-->
+
+    <string name="horizontal">Horizontal</string>
+    <string name="veritical">Veritical</string>
+    <string name="search">Search</string>
+
+    <string name="all_ori">All</string>
+    <string name="recent_search">Popular Searches</string>
+    <string name="hot_search">Popular Searches</string>
+    <string name="artist">Artist</string>
+    <string name="gallery">Gallery</string>
+    <string name="paint">Painting</string>
+
+    <string name="no_result">No Results</string>
+    <string name="mine_setting">Mine Setting</string>
+    <string name="deny">Deny</string>
+    <string name="deleting">Deleting</string>
+    <string name="delete_success">Delete Success</string>
+
+    <string name="feedback">FeedBack</string>
+    <string name="current_version">Current Version</string>
+    <string name="language">Language</string>
+    <string name="cache">Cache</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="about_us">About Us</string>
+    <string name="delete_all_cache">Delete all history?</string>
+    <string name="user_suggest">User Review</string>
+
+
+    <!--登陆相关  我的-->
+    <string name="resend">Resend</string>
+    <string name="verify_code">Verification Code</string>
+    <string name="next_step">Next Step</string>
+    <string name="not_bind">Not Connected</string>
+    <string name="send_code">Send</string>
+    <string name="change_bind">Change Account</string>
+    <string name="connected">Connected</string>
+    <string name="after_sign_access_permission">After Your Sign In,We Are Authorized Access To</string>
+    <string name="search_friend_aom">Search For Your Friends Using AOM"</string>
+    <string name="sign_in">Sign In</string>
+    <string name="wrong_password">Wrong Password/email</string>
+    <string name="user_name_email">User Name /Email</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_later">Sign Up Later</string>
+    <string name="security_send_email">For Security Purpose We Send An Veridication Code To Your Email</string>
+    <string name="verify_email">Email Verification</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="retype_password">Re-type Password</string>
+    <string name="new_password">New Password</string>
+    <string name="verity_code">Verification Code</string>
+    <string name="email">Email</string>
+    <string name="password_not_identify">Please Type Yors Password Again</string>
+    <string name="wrong_code">Wrong Verification Code</string>
+    <string name="email_has_sent">We Have Send An Verification Code To Your Email</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="nick_name">ID</string>
+    <string name="account_bg">Account Background image</string>
+    <string name="upload_success">OK</string>
+    <string name="person_des">Personal Description</string>
+    <string name="my_profile">My Profile</string>
+    <string name="type_password">Type Your Password</string>
+    <string name="type_email">Type Your Email</string>
+    <string name="type_phone">Type Your Phone</string>
+    <string name="has_bind_num_device_msg">Connected Decices </string>
+    <string name="type_different_name">This Painting name has already saved</string>
+
+
+    <!--           内衬               -->
+    <string name="paint_name">List Name</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_lining">None</string>
+    <string name="texture">Texture</string>
+    <string name="size">Size</string>
+    <string name="white_board">Card Board</string>
+    <string name="beige_board">Beige Texture</string>
+    <string name="xuan_board">Xuan Paper</string>
+    <string name="grey_board">Grey Texture</string>
+    <string name="black_board">Black Matt</string>
+    <string name="lining">Lining</string>
+    <string name="position">Position</string>
+    <string name="pattern">pattern</string>
+    <string name="no_pattern">None</string>
+
+
+
+    <!--             播放页               -->
+    <string name="single_play">Single cycle</string>
+    <string name="order_play">Play In Order</string>
+    <string name="shuffle_play">Shuffle Play</string>
+    <string name="push_success">Submitted</string>
+    <string name="push_failed">Failed To Publish</string>
+    <string name="more_func">More Functions</string>
+    <string name="detail">Details</string>
+    <string name="collect">Save</string>
+    <string name="add_mood">Add Mood</string>
+    <string name="mode">Mode</string>
+    <string name="normal">Normal</string>
+    <string name="night">Night</string>
+    <string name="sleep">Sleep</string>
+    <string name="add_to_list">Add To Art Work List</string>
+    <string name="new_art_list">New Art Work List</string>
+    <string name="not_bind_device">No Frane assigned</string>
+
+
+
+    <!--画架-->
+    <string name="my_art_list">My art work list</string>
+    <string name="recent_art">Recent viewed</string>
+    <string name="mine_collect">My collection</string>
+
+    <!--分类-->
+    <string name="emptiness">Emptiness</string>
+    <string name="boggle">Boggle</string>
+    <string name="fear">Fear</string>
+    <string name="sadness">Sadness</string>
+    <string name="think">Think</string>
+    <string name="melancholy">Melancholy</string>
+    <string name="anger">Anger</string>
+    <string name="happiness">Happiness</string>
+    <string name="default_category">Initical Category</string>
+    <string name="category">Category</string>
+    <string name="user_custom">User Customized Setting</string>
+    <string name="contemporary">Contemporary</string>
+    <string name="modern">Modern Times</string>
+    <string name="ancient">Ancient Times</string>
+    <string name="chronological">Chronologically</string>
+    <string name="calligraphy">Calligraphy</string>
+    <string name="new_media">New Media</string>
+    <string name="sculpture">Sculpture</string>
+    <string name="sketch">Sketch</string>
+    <string name="art">Art</string>
+    <string name="mood">Mood</string>
+    <string name="scenes">Scenes</string>
+    <string name="location">Location</string>
+    <string name="interior_category">Interior Design Style</string>
+    <string name="living_room">Living Room</string>
+    <string name="office">Office</string>
+    <string name="bed_paint">Bedroom</string>
+    <string name="public_paint">Puplic Area</string>
+    <string name="private_paint">Private Space</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="new_china">New Chinese</string>
+    <string name="european">European</string>
+    <string name="japanese">Japanese</string>
+    <string name="modern_new">Modernism</string>
+    <string name="us_paint">North American</string>
+    <string name="midd_paint">Mediterranean</string>
+    <string name="genre_paint">Art Genre</string>
+    <string name="realism_paint">Realism</string>
+    <string name="abstract_paint">Abstractionism</string>
+    <string name="figure_paint">Figure</string>
+    <string name="water_paint">Landscape</string>
+    <string name="bird_paint">Bird And Flower</string>
+    <string name="art_category">Art Work</string>
+    <string name="tradition_paint">Traditional Chinese painting</string>
+    <string name="oil_paint">Oil painting</string>
+    <string name="wood_paint">Wood Printing</string>
+
+    <!--                 发现                  -->
+    <string name="art_today">Art For Today</string>
+    <string name="recommend">Pioneer Artist</string>
+    <string name="latest_paint">Recent Art Works</string>
+    <string name="hot_paint">Popular Art Works</string>
+    <string name="search_hint">Art works/Artist</string>
+    <string name="arts_word">Artists’ words</string>
+    <string name="share">Share</string>
+    <string name="read_digest">Art Digest</string>
+
+    <string name="uncollect_success">You have removed this item from your favourite list</string>
+    <string name="collect_success">Saved successfully</string>
+    <string name="add_mood_success">Add Mood successfully</string>
+    <string name="change_cover">Change Cover</string>
+    <string name="edit_paint_msg">Edit art work info</string>
+    <string name="edit_paint_success">Edit Paint info successful</string>
+    <string name="pages">pcs</string>
+    <string name="save_success">Saved successfully</string>
+    <string name="tips">Tips</string>
+    <string name="tip_tip">You need to pair this App with Moran Digital Museum to enable this function</string>
+    <string name="lining_tip">You need to pair this App with Moran Digital Museum to enable this function</string>
+    <string name="show_on_device">Show on Moran Digital Museum</string>
+    <string name="not_show_on_device">Hide on Moran Digital Museum</string>
+    <string name="word">font</string>
+    <string name="share_way">Share it on</string>
+    <string name="wechat_session">Wechat session</string>
+    <string name="wechat_circle">Wechat timeline</string>
+    <string name="exist_paint">Exist painting list</string>
+    <string name="play">Play</string>
+    <string name="times">timestimestimes</string>
+    <string name="device_remove_success">Delete successfully</string>
+    <string name="register_account">Sign up account</string>
+    <string name="reset_pass_success">Reset password successfully</string>
+    <string name="reset_pass_hint">Please reset-password, using number,letter's combination</string>
+    <string name="sign_in_success">Sign in successful</string>
+    <string name="account">Account</string>
+    <string name="input_password">Please enter your password</string>
+    <string name="login_wechat">Login via wechat</string>
+    <string name="login_weibo">Login via Sina</string>
+    <string name="register_email">Email</string>
+    <string name="register_phone">Phone</string>
+    <string name="copyright">The copy right of images on this app are all reserved to Art Touch </string>
+    <string name="input_feedback">Your feedbacks are highly appreciated, please let us know what we can do improve to our service</string>
+    <string name="go_moran_wifi">Please enter the setting page of  Moran digital frame to set up your wifi connections </string>
+
+
+    <string name="change_language_msg_c">The current language is Chinese</string>
+    <string name="change_language_msg_e">The current language is English</string>
+    <string name="push_to_device">Push to this device</string>
+
+    <string name="not_install_wechat">Not install Wechat</string>
+    <string name="not_install_weibo">Not install Weibo</string>
+    <string name="not_install_instagram">Not install Instagram</string>
+    <string name="not_install_twitter">Not install Twitter</string>
+    <string name="not_install_facebook">Not install Facebook</string>
+    <string name="share_success">Success</string>
+
+
+    <string name="at_museum">AT Museum App</string>
+    <string name="skip">Skip</string>
+
+
+    <string name="agree">Agree</string>
+
+    <string name="register_msg_detail">
+        User Agreement and privacy policy\nThis user agreement is an acknowledgement for user terms and conditions of the service and products provided by Moran system. Your access, visitation and /or use of the service, including without limitation andy registration on any aspect of the service or products, will constitute your agreement to this user agreement and privacy policy.  Please read through this agreement carefully, if you have any questions or concerns please contact us. \n 1, Terms and conditions of Moran digital frame \n\n1.1 What is Moran digital frame\n\nMoran digital frame is the name of a system product developed by Dian Di Wei Lai (Bei Jing) culture and technology Co., Ltd. The function of this system product covers the iOS and Android APPs, websites, cloud service and hardware display. \n\n1.2 User policy of Moran\nAs you agree that the relationship between you and Moran is constrained  by law, you will be able to use this service/product. The service and product provided by us includes searching, scanning, interacting with other people and other behaviors. This user agreement states that you have rights to own, use and share your Moran digital frame products and service with others. If you are younger than 10 years old, you don’t meet the age requirements of using our products or service. Please note that the artistic content we presented on our official websites may includes naked characters and contents that considered not suitable for children. If you allow your children to use, visits, watch Moran digital frame by themselves or with your supervision, you are acknowledged about these issues and you are responsible to stop them from visiting, watching any content that are not suitable for them. If you accept this agreement, this agreement will have legal effect on you and the juridical entity represent by you, unless you have special statements that shows contrary opinions. \n 1.3 the special product and service of Moran digital frame. \n 1.3.1 special agreement or terms\n There are terms of some special products and service under Moran digital frame that need you to accept at the beginning. Once you accept these terms you are agree with and regulated by these policies. \n 1.3.2 Account\n When you are using some specific products or services, you need to register a Moran digital frame account in order to fulfill the requirements. You need to provide your real personal information to us and make sure they are latest information. You are not allowed to rent, sell or sublet your account to the third party individuals or institutions. You are responsible for your account information security including your password, user name. Once you find there are any security concerns of your account, please get in touch with us immediately. \n 1.3.3 Privacy policy\n Please read through our privacy policy carefully, this policy claims how we collect and use your personal information while you are using our products or service. Our privacy policy will be a part of the user agreement. More details about our privacy policy at https://www.atmoran.com/useragreement.html . Your access visitation and/or use of the service and product will constitute your agreement to this user agreement and privacy policy and allow use to collect and use some of your personal information.\n\n 2. Content, ownership and authorization\n 2.1 Agreement content\n The “content” of this agreement, includes all the texts, pictures, videos, music, code, softwares and any materials that belongs to this system. All the contents relates this agreement is bonging to  Moran digital frame and individuals, institutions that transfer their ownership to us. All these contents are protected by Intellectual Property Law and other Property Laws from the People's Republic of China and other regions. Moran digital frame own and reserve all rights, including the products we provide and the content we used in our service including user interface, design, layout, function. These rights are not only limited to copy right, patent right, trade mark right, commercial secrets and other intellectual property rights, ownership. When you are using our products and service, does not have any rights beyond this agreement, especially copy rights, trademark rights and ownership, right to use other intellectual property right. We have and reserve the rights to give you some rights. \n 3.1 The guideline of user interaction content and regulation of users. \n (1) All the comments that posted by users need to follow and restricted by laws in The People's Republic of China. \n (2) Any content that are sensitive to nation, country, race, religion or enmity will be deleted. \n (3) Contents relates to sensitive topics including pornographic pornography, violence, ideology and other bad topics will be deleted. \n (4) Content that relates to personal assaults, harassment and any other issues that violate individuals’ privacy will be deleted.\n\n (5) Moran digital frame reserve the rights to delete the sensitive contents that lodge  complaints by other users and keep your account for further solution. \n (6) The manager of Moran digital frame system reserve the rights to delete contents that are illegal, offence the user agreements, privacy policy or user guideline. Users who impersonate others, abusing user resource, over marketing, malicious assaults or spam advertising information to groups will have their accounts frozen. If there are specific cases that offence the law, politics, Moran digital frame reserve the rights to terminate or withdraw the user’s accounts. \n 3.2 Since Moran digital frame is operated under the influence of law in the People's Republic of China, we cannot promise if our products works in regions outside the People's Republic of China. If you are using Moran digital frame outside the People's Republic of China, please follow the rules and policies of local region. \n 4,  Official app\n Our service includes provides apps that you can download and install on your devices.When you are using our apps, the user agreements, privacy policies, and other terms we negotiated with you will apply. If there are specific terms existed in apps, these terms would only apply for these apps but not apply for other Moran digital frame. In addition, we have ultimate rights to explain these issues. You agree with that we can update our apps without notify you about it. This agreement will also applies to all updated apps. \n 5, Other websites and service\n Our service might connected us with third party websites that are not managed by us through functions or accounts. This kind of service is provided for your convenience and we don’t take any responsibility or risks related to the service, information, products provided by these third party websites. Therefore, you have take the risk of using these websites or service. We don’t take any responsibility of following contents:\n(1)Usability of these websites.\n(2)The risk of using these websites or service. \n 6, Copy rights claim\n (1) The copy rights of content on Moran digital frame including information that forwarded, copy, screenshot from other websites or individuals, and exhibition information, original creative works, moments, brief, comments and etc are all belongs to their original authors. Users should not violate other individuals’ rights including copy rights and other rights. If users violated other individuals’ leal rights by posting their works without permissions, users need to undertake all the responsibility by themselves and Moran digital frame is not responsible for these issues. \n (2) The trademark, layout, text, graphics, pictures that posted on web service of Moran digital frame are protected by copy right, trade mark and other related laws and policies. Contents as discussed above are not allowed to be posted, shared, used for any commercial retouching or republishing aims without permission from Moran digital frame other original authors. \n (3) Moran digital frame reserve the rights to examine the contents users posted on Moran digital platform. Moran digital frame are not responsible to examine all the information, however,  Moran are allowed to deal with the information that violates  the laws including The Tort liability law, Consumer protection law, Regulations on the protection of the right to communication of information network. \n (4) Moran digital frame respects obligees’ copy rights and other legal rights. If obligees  believe that the content that Moran digital frame uploaded to their digital platform does violate their copy rights or other legal rights, they could contact Moran at admin@atmoran.com for help. Moran digital frame reserve the rights to delete the content and backup the data without notifying the users once they have legal examine materials and results of the posts. Users posting any information on Moran digital frame will constitute to the agreement of terms above. Moran digital frame will to take any penalty or legal responsibilities for these actions. \n (5) If the content Moran digital frame has deleted for above terms are not fare according to the user agreement, users are encouraged to contact Moran customer service email : admin@atmoran.com for more help. We will get back to these issues quickly once we have enough information. \n 7, Rights claim\n Disclaimer\n We try our best to make sure the usability of this service in a good state, however, you need to agree to undertake some risks while using this service. In this user agreement, we promise that we the service we provide to you are latest reliable version. These promise includes but not limited to all the service and presentation of the content, security of information. We might change our service and function without notifying you, we keep the rights of change, update, delete, add or terminate the rights of using part of the service. In addition, these changes are to limited to user interface, design and product function. \n\nWe are allowed to partially, totally, temporarily or perpetually change the service without notifying you. We are not responsible for the influence of our service change on you and the third parties. We are not responsible for illegal, harmful results that caused by illegal visitation of our service from third parties. Moreover, we are not responsible for  third party problems or related services, no matter these behaviours are online, offline, cause transactions, or relates to users’ contents. At the same time, we claim that we will not take any responsibility for the quality and usability of the third party service or any commercial transactions among third parties. Each user need to be responsible for himself/herself and their communication with other users or third parties. Moran digital frame and its staff, owners, board of directors, advisors, agents or employees are not responsible for damage or lost caused by following behaviours. \n (1) The compensation and dissension among you and other users.\n(2) Contents that aim at other users.\n(3) The content or works that provided and sell by on third party service.\n(4) Any unauthorized third party enter or use our products and service, your account or user information. \n \n\nMoran digital frame and its staff, owners, board of directors, advisors, agents or employees will not undertake any indirect, fortuitous, punitive responsibility that relates to interests, income, data, right to use, reputation and other invisible properties.\n(1) Unable to use this service.\n(2) Third party operates our service.\n(3) Under any situation, if there are any reasons about contents, products, service that asked Moran digital frame and its staff, owners, board of directors, advisors, agents or employees to pay more than 1500 RMB for compensation, we have three months waiting to decide if we need to compensate for this issue. Limited liability applies to all the claim damage, no matter if this claim damage is based on agreement, contract, tort( including fault), strict responsibility and any other law problems. \n 7.3 Users’ liability for compensation\n\nYou agree and believe that Moran digital frame and its staff, owners, board of directors, advisors, agents or employees should not cover the damage that caused by  faults that from you and the third party. These damage including includes litigation or liability for compensation caused by damage, compensation( payment for lawyers, litigation fee, appraisal fee, travel expenses, expenses for board and lodging and etc.). We reserve the rights for pleading, at the same time you need to supports we using this rights. The obligation of compensation and pleading is independent from this agreement, it applies even when this agreement end. \n 8. The change, termination and end of this agreement\n 8.1\nWe keep the rights of changing terms in this agreement. This rights includes changing, adding or delete any terms from this agreement. We will inform users 7 days before we make any official changes unless we are under supervision or due to some legal reasons. You agree with that we can update this term page in order to change inform the policy changes on this user agreement, you need to check this page and tracking the latest changes. The updated content of this agreement will be posted on website and add to following versions of user agreement. The change of this agreement does not apply to any claim damages or any dispute damages that happens before these changes. All the claim damages any dispute damages should be resolved under the guide of current user agreement. \n 8.2 You can stop using our service at anytime. When you violate this agreement, you agree that we are allowed to terminate, limit or temporarily stop your visiting to this service and retrieve your accounts without notifying you or undertaking any other responsibilities. When you terminate this agreement or stop using our products the following content still keep the full legal power and are allowed to be executed.\n(1)The bill between us, including the unpaid bill.\n(2) All the terms that add to this agreement and the following terms:\na, Content, ownership and authority.\nb, User guideline and management.\nc, Other websites and service.\nd, Copy right statements.\ne, Rights and responsibility.\nf, The change, termination, end of the agreement.\ng, Laws application and resolution of conflicts. \n 9, All the terms\nThis term includes our privacy policy and terms that belongs to this agreement (includes written agreements) and our sales agreement, constitutes the acknowledgement, common sense between you and Moran digital frame. These contents will be replaced by the earlier agreements we made on written agreements, verbal agreements and digital agreements. You and we agree that if any terms from this agreement  are considered invalid or has any reason that stops the execution of these terms by any legal arbitration institutions, terms of this agreement will be executed to a level that is allowed by law, all the other terms in this agreement are considered valid. \n 10. Others\n If we delayed or does not execute some terms or rights indicated in this agreement does not means we give up using these terms or rights. Unless we provide written statements to claim that we are giving up these rights, we will not give up any rights or following actions that suggested in this agreement. This agreement will be  able to be inherited or transferred to others only if you have our official permission. The content of this agreement and rights applied by this agreement will be inherited by our successors or assignees. This agreement will only be effective among you and Moran digital frame, it will not restrict any other third party, unless there are other persons refers to. This agreement will not relate to any of your agency, partners, employment, jointed capital relationships. These relationships are not restricted by this agreement. This agreement is written in English and simplified Chinese. If there are any misunderstandings that happens due to translation, please use the simplified Chinese version as a standard. The order of chapters of this agreement is designed and arranged for the convenience of reading, it does not has any legal effect. \n 11, Contact\n When you are using this service including contact use via email, we would considered you are starting the “ online communication” with us. You agree that we can start effective communication through email, mail and any other legal methods. In addition, you agree with that we can send you agreements, post notices and other communication contents. Moreover, we are not responsible for the lost of information due to the email filter installed by you or our service agents. If you have any concerns or suggestions on our products or service, please email us at admin@atmoran.com . \n 12, Resolution and controversy on application of law\nAny controversy that caused by or relates to this agreement should be resolved under the guidance of the law from People's Republic of China. If the controversial event could be resolved, this event should be delivered and resolved by Beijing Board of arbitration and arbitraged according to related policies. The official arbitration language is Chinese. The arbitral decision is the final decision which is effective on people who are involved this event. Therefore, any arbitration cost including appraisal fee, arbitration cost, notarization fee, payment of lawyer is on the party losing the lawsuit. \n 13, The rights of final explanation and rights to revise are reserved to Dian Di Wei Lai ( Bei Jing) Culture and Technology Co., Ltd.
+    </string>
+
+</resources>
